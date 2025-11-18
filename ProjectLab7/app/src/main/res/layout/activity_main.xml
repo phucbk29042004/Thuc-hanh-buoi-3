@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Cột trái: Selectors -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingRight="8dp">
+
+                <TextView
+                    android:text="@string/col_left"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnColored"
+                    android:text="@string/btn_colored_selector"
+                    android:textColor="@color/sel_text"
+                    android:background="@drawable/btn_colored_selector"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnColoredDisabled"
+                    android:text="@string/btn_colored_selector_disabled"
+                    android:textAllCaps="false"
+                    android:textColor="@color/sel_disabled_text"
+                    android:background="@drawable/btn_colored_selector"
+                    android:enabled="false"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="8dp">
+
+                <TextView
+                    android:text="@string/col_right"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnRound"
+                    android:text="@string/btn_round_shape"
+                    android:textColor="@color/round_text"
+                    android:background="@drawable/btn_round_shape"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnGradient"
+                    android:text="@string/btn_shape_gradient"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_shape_gradient"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/btnSelectorShape"
+                    android:text="@string/btn_selector_shape"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_shape_red_selector"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Emoji buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/emoji1"
+                android:text="😊"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="@drawable/circle_emoji_bg"
+                android:layout_marginEnd="24dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+
+            <TextView
+                android:id="@+id/emoji2"
+                android:text="😎"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:background="@drawable/circle_emoji_bg"
+                android:layout_width="64dp"
+                android:layout_height="64dp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnOpenExercise2"
+            android:text="Sang Bài 2: Custom Toast, Dialog"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnOpenExercise3"
+            android:text="Sang Bài 3: RGB và CMY"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProjectLab7</string>
+    <string name="title">Custom Button</string>
+    <string name="col_left">Selectors</string>
+    <string name="col_right">Shapes+Selectors</string>
+    <string name="btn_colored_selector">COLORED SELECTOR</string>
+    <string name="btn_colored_selector_disabled">COLOR SELECTOR\nDISABLED</string>
+    <string name="btn_round_shape">ROUND SHAPE</string>
+    <string name="btn_shape_gradient">SHAPE WITH GRADIENT</string>
+    <string name="btn_selector_shape">SELECTOR SHAPE</string>
+</resources>

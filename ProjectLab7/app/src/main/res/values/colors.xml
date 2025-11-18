@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="bg">#FFF5F7FA</color>
+
+
+    <color name="sel_normal">#FF26C6DA</color>      <!-- teal -->
+    <color name="sel_pressed">#FF0097A7</color>
+    <color name="sel_text">#FFFFFFFF</color>
+
+    <color name="sel_disabled_bg">#FFFFEB3B</color> <!-- yellow -->
+    <color name="sel_disabled_text">#FF1B1B1B</color>
+
+
+    <color name="round_bg">#FFE0E0E0</color>
+    <color name="round_text">#FF1B1B1B</color>
+
+    <color name="grad_start">#FF00BCD4</color>
+    <color name="grad_end">#FF00796B</color>
+    <color name="grad_stroke">#FF004D40</color>
+
+    <color name="shape_red_normal">#FFE57373</color>
+    <color name="shape_red_pressed">#FFEF5350</color>
+    <color name="shape_red_stroke">#FFB71C1C</color>
+</resources>

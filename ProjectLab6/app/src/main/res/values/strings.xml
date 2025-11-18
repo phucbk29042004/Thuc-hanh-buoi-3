@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ProjectLab6</string>
+    <string-array name="currencies">
+        <item>VND</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+        <item>GBP</item>
+        <item>AUD</item>
+    </string-array>
+    <string-array name="length_units">
+        <item>Hải lý</item>
+        <item>Dặm</item>
+        <item>Km</item>
+        <item>Lý</item>
+        <item>Met</item>
+        <item>Yard</item>
+        <item>Foot</item>
+        <item>Inch</item>
+    </string-array>
+
+</resources>

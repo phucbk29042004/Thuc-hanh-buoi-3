@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Hình ảnh món ăn -->
+    <ImageView
+        android:id="@+id/imgMonAn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pho"/>
+
+    <!-- Phần thông tin bên phải -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <!-- Tên món -->
+        <TextView
+            android:id="@+id/txtTenMon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phở bò"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#D81B60"/>
+
+        <!-- Giá tiền -->
+        <TextView
+            android:id="@+id/txtGia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45.000 đ"
+            android:textSize="16sp"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Mô tả -->
+        <TextView
+            android:id="@+id/txtMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phở bò truyền thống với nước dùng trong, thơm"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>
